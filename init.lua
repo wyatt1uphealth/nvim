@@ -24,6 +24,7 @@ vim.opt.rtp:prepend(lazypath)
 --
 require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
+  'ThePrimeagen/vim-be-good',
   'jiangmiao/auto-pairs',
 
   { -- You can easily change to a different colorscheme.
