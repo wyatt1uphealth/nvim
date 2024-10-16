@@ -119,3 +119,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
+
+vim.keymap.set('n', '<leader>o', 'o<ESC>', { desc = 'Insert a blank line' })
+vim.keymap.set('n', '<leader>O', 'O<ESC>', { desc = 'Insert a blank line above' })
