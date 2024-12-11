@@ -110,7 +110,7 @@ end)
 vim.keymap.set('n', '<leader>9', function()
   harpoon:list():select(9)
 end)
-vim.keymap.set('n', '<leader>0', function()
+vim.keymap.set('n', '<leader>-', function()
   harpoon:list():clear()
 end)
 
